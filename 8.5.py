@@ -7,7 +7,6 @@ def count(x):
  print count
 print 'enter the word'
 a = raw_input()
-print "enter the aplhabet to be counted"
 count(a)
 if __name__ =="'__count__":
  count(a)
