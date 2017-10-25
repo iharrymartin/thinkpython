@@ -1,11 +1,11 @@
-import sys
-def string(x):
- index = -1
- for f in x:
-  print x[index]
-  index = index - 1
-print "Enter your string"
+import sys 
+def backward(x): 
+ y = x[::-1]
+ for char in y:
+	print char
+print 'enter the string'
 a = raw_input()
-string(a):
-if __name__ == "__string__":
-string(a)
+backward(a)
+if __name__ == "__backward__":
+ backward(a)
+
