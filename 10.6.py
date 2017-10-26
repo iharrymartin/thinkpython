@@ -1,15 +1,14 @@
 import sys
 import string
 def is_sorted(x,y):  
- if y == x:
+ if x == y:
   print 'true'
  else:
   print 'false'
-print ' enter the elements of the list seperated by a space '
+print ' enter the elements of the list continusly '
 a = raw_input()
-b = string.split(a)
-c = b
-d = c.sort()
-is_sorted(b,d)
+c = string.split(a)
+b = sorted(a)
+is_sorted(c,b)
 if __name__ =="is_sorted":
  is_sorted(x,y)
