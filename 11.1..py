@@ -1,9 +1,9 @@
 import uuid
-with open('words.txt') as fd:
+with open('wordschpt11.txt') as fd:
     words = fd.read().splitlines()
 result = dict()
 def dictionary():
-    for line in words:
+    for line in wordschpt11:
         result[line] = uuid.uuid4()
     return result
 print dictionary()
